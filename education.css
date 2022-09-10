@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.logo img{
+    width: 77px;
+    position: relative;
+    left: 99px;
+    top: 3px;
+}
+.navigation{
+    display: flex;
+}
+ul{
+    display: flex;
+    position: relative;
+    left: 167px;
+}
+ul li{
+    list-style: none;
+    margin: 15px 45px;
+    font-size: 20px;
+}
+.login .btn{
+    position: relative;
+    top: 15px;
+    right: -376px;
+    width: 130px;
+    height: 30px;
+    background-color: #436cf2;
+    color: white;
+}
+ .start::before{
+    content: '';
+    background: url('img/school_going.jpg' ) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    /* height: 550px; */
+} 
+.heading h1{
+    color: white;
+    font-size: 3.4rem;
+    padding: 240px 80px;
+    color: blue;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+.container h1{
+    color: #436cf2;
+}
+.boxes{
+    margin: 35px 0px;
+    display: flex;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #436cf2;
+    width: 284px;
+    height: 213px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.box h1{
+    color: white;
+}
+.box .b{
+    background-color: white;
+    color: #436cf2;
+    width: 100px;
+    height: 25px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+.details{
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 384px;
+}
+.details h1{
+    font-size: 3.1rem;
+    color: #436cf2;
+}
+.details p{
+   margin: 20px 0px;
+   font-size: 18px;
+}
+
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+.con1 img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 180px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.item h1{
+    font-size: 2.1rem;
+    color: #436cf2;
+}
+.item p{
+    font-size: 1.2rem;
+}
+.con2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+.con2 img{
+    position: relative;
+    left: -180px;
+}
+.explain::before{
+    content: '';
+    background-color: #436cf2;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.explain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explain img{
+    width: 150px;
+}
+.ex p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin:0px 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+.countries{
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countries h1{
+    color: #436cf2;
+    font-size: 2.5rem;
+}
+.globe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #436cf2;
+    width: 330px;
+    height: 200px;
+    margin: 0px 20px;
+}
+.c img{
+    width: 100px;
+}
+.c h1{
+    color: white;
+}
+.c p{
+    color: white;
+}
+.c .button{
+    background-color: white;
+    color: #436cf2;
+    margin: 12px 0px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.last{
+    text-align: center;
+}
+.last h1{
+ color: #436cf2;
+}
+.last button{
+    margin: 25px 0px;
+    background-color: #436cf2;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+footer{
+    background-color:aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    margin: 70px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+}
+.copy{
+    text-align: center;
+}
